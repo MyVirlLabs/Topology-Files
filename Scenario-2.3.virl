@@ -96,6 +96,7 @@ interface GigabitEthernet0/0
  media-type rj45
  negotiation auto
  no cdp enable
+ shutdown
 !
 interface GigabitEthernet0/1
  description to Core-1B
@@ -278,6 +279,7 @@ interface GigabitEthernet0/0
  media-type rj45
  negotiation auto
  no cdp enable
+ shutdown
 !
 interface GigabitEthernet0/1
  description to Core-1A
@@ -455,6 +457,7 @@ interface GigabitEthernet0/0
  media-type rj45
  negotiation auto
  no cdp enable
+ shutdown
 !
 interface GigabitEthernet0/1
  description to UserAcc-1B
@@ -625,6 +628,7 @@ interface GigabitEthernet0/0
  media-type rj45
  negotiation auto
  no cdp enable
+ shutdown
 !
 interface GigabitEthernet0/1
  description to UserAcc-2B
@@ -800,6 +804,7 @@ interface GigabitEthernet0/0
  media-type rj45
  negotiation auto
  no cdp enable
+ shutdown
 !
 interface GigabitEthernet0/1
  description to UserAcc-1A
@@ -975,6 +980,7 @@ interface GigabitEthernet0/0
  media-type rj45
  negotiation auto
  no cdp enable
+ shutdown
 !
 interface GigabitEthernet0/1
  description to UserAcc-2A
